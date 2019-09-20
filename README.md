@@ -27,13 +27,13 @@ ADT is an abstraction of a data structure which provides only the interface to w
 Big-0 Notation gives an upper bound of the complexity in the **worst** case, helping to quantify performance as the input size become **arbitrarily large**.
 
 Complexities ordered from smallest to largest (n = size of input)
->Constant Time: 0(1)
-Logarithmic Time: 0(log(n))
-Linear Time: 0(n)
-Linearithmic Time: 0(nlog(n))
-Quadric, Cubic Time: 0(n^2) / 0(n^3)
-Exponential Time: 0(b^n), b>1
-Factorial Time: 0(n!)
+> Constant Time: 0(1)
+- Logarithmic Time: 0(log(n))
+- Linear Time: 0(n)
+- Linearithmic Time: 0(nlog(n))
+- Quadric, Cubic Time: 0(n^2) / 0(n^3)
+- Exponential Time: 0(b^n), b>1
+- Factorial Time: 0(n!)
 
 #### Examples
 0(1) - constant time, so as input size n increases, the time taken remains constant
