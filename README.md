@@ -27,7 +27,7 @@ ADT is an abstraction of a data structure which provides only the interface to w
 Big-0 Notation gives an upper bound of the complexity in the **worst** case, helping to quantify performance as the input size become **arbitrarily large**.
 
 Complexities ordered from smallest to largest (n = size of input)
-> Constant Time: 0(1)
+- Constant Time: 0(1)
 - Logarithmic Time: 0(log(n))
 - Linear Time: 0(n)
 - Linearithmic Time: 0(nlog(n))
@@ -91,7 +91,7 @@ Hence: 0(n^4)
 Think of a stack of books. If you have a stack of books, the top of the book is what you put in last. 
 Stacks are a LIFO type of service -> Last-In First-Out!
 
-Another example of stacks are your browser's 'Back' button. Everytime you enter a URL, the browser puts that website URL to the top of the stack of sites you visited previously. When you click back, you pop off the current website you visited.
+Another example of stacks are your browser's 'Back' button. Everytime you enter a URL, the browser puts that website URL to the top of the stack of sites you visited previously. When you click 'Back', you pop off the current website you visited from the stack.
 
 ### Stack Functions
 1. Push - placing data onto a stack
