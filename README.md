@@ -109,3 +109,11 @@ Sets are like arrays except there are no duplicate items and the values are not 
 ES6 has a built in 'Set' object, however it doesn't contain all the methods that are common to Sets. So you may need to implement some of those yourself.  
 
 **Refer to `sets.js` to view examples and the implementation of a set in JS.**
+
+## Queues
+Queues are similar to stacks, except that queues are first-in first-out (FIFO). Think of waiting in line to buy something in a store. Another example is a print queue, the printer prints the documents in the order it received the print requests.
+
+In JS, we can implement a queue with just an array. If we want to limit a queue to only it's methods, we will have to implement it ourselves.
+
+## Priority Queues
+PQs are pretty much the same as queues, except that you can pass in the priority of the element that you are queue-ing up. Check out the implementation in `queues.js`
