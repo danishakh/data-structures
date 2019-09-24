@@ -104,3 +104,8 @@ Another example of stacks are your browser's 'Back' button. Everytime you enter 
 **Refer to `stacks.js` to view examples and the implementation of a stack in JS.**
 
 ## Sets
+Sets are like arrays except there are no duplicate items and the values are not in any particular order. Typically, sets are used to check for the presence of an item/value. 
+
+ES6 has a built in 'Set' object, however it doesn't contain all the methods that are common to Sets. So you may need to implement some of those yourself.  
+
+**Refer to `sets.js` to view examples and the implementation of a set in JS.**
