@@ -117,3 +117,16 @@ In JS, we can implement a queue with just an array. If we want to limit a queue 
 
 ## Priority Queues
 PQs are pretty much the same as queues, except that you can pass in the priority of the element that you are queue-ing up. Check out the implementation in `queues.js`
+
+## Binary Search Tree
+- All data points in the tree are called nodes. 
+- Top of the tree is called a root node
+- There are parents, children and siblings
+- Leaf nodes are nodes at the end of the tree (bottom / don't have any children)
+- Usually trees can have multiple branches(children) for each node, although binary trees only have 2 for each node
+- Binary search trees are ordered trees, which means each left subtree is less than or equal to the parent node, and each right subtree is greater than or equal to the parent node
+
+Check out the JS implementation of BSTs in `binarysearchtree.js`
+
+### Example Binary Search Tree
+![Binary Search Tree](https://static.javatpoint.com/ds/images/binary-search-tree.png)
