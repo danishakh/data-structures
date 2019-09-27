@@ -12,12 +12,14 @@ class BST {
     }
 
     add = function(data) {
+        // start at the root node
         const node = this.root;
 
         if (this.root === null) {
             this.root = new Node(data);
             return;
         }
+        // if there is a root node, we need to figure out where to put this node in the tree
         else {
             const searchTree = function(node) {
                 if(data < node.data) {
@@ -36,6 +38,7 @@ class BST {
                         return;
                     }
                     else if(node.right !== null) {
+                        // recursively run this function with 'node.right' as the argument
                         return searchTree(node.right);
                     }
                 }
@@ -44,6 +47,23 @@ class BST {
                     return null;
                 }
             }
+            return searchTree(node)
         }
+    }
+    // find the min value in the tree
+    findMin = function() {
+        let minNode = this.root;
+        while(minNode.left) {
+            minNode = minNode.left;
+        }
+        return minNode.data;
+    }
+    // find the max value in the tree
+    findMax = function() {
+        let maxNode = this.root;
+        while(maxNode.right) {
+            maxNode = maxNode.right;
+        }
+        return maxNode.data;
     }
 }
